@@ -19,7 +19,7 @@ const InfoCards = () => {
             name:'Visit Our Location',
             description: ' Open 10.00 am to 6.00 pm',
             icon: marker,
-            bgClass: 'bg-accent'
+            bgClass: 'bg-secondary'
 
         },
         {
@@ -32,7 +32,7 @@ const InfoCards = () => {
         }
     ]
     return (
-        <div className='grid md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 px-10'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1 '>
             {
                 cardData.map(card =><InfoCard
                 key ={card.id}
